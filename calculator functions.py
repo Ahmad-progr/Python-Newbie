@@ -1,14 +1,15 @@
 def main():
     x = int(input("Enter a number: "))
     y = int(input("Enter a second number: "))
-    print(add(x, y))
+    add(x, y)
+    sub(x, y)
+    div(x, y)
 
 
 
 def add(a, b):
     sum = (a + b)
-    #print("Sum: ", sum) 
-    return sum 
+    print("Sum: ", sum)  
 def sub(a, b):
     difference = round(a - b)
     print("Difference: ", difference)
