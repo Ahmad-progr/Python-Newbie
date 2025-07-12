@@ -11,6 +11,8 @@ def main():
             return
         break
     
+    print("_______________________________________\n")
+
     while True:
         
         inp_iteration = input("How many times| ")
@@ -24,25 +26,28 @@ def main():
             continue
         break
 
-
+    print("_______________________________________")
+    
     if inp_iteration <= 0:
         print(f'\n"Since you entered a negative iteration"')
         i = 0
         print(f"\nRepeat {user_input} {-inp_iteration} times:")
         while i > inp_iteration:
-            u_input = input()
+            u_input = input('\n')
             if u_input == user_input:
                 i -= 1
 
             else:
-                print("Repeat what you typed:")
+                print("Repeat what you typed: ")
                 continue
         
+        print("_______________________________________\n")
         print("Great Job!".center(40,' '))   
     
     else:
+        print("_______________________________________\n")
         f_loop(user_input, inp_iteration)
-
+        print("\n")
 
     
 def f_loop(user_input, inp_iteration):
