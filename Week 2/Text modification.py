@@ -1,3 +1,5 @@
+import time
+
 def main():
     while True:
         stri = input("Type: ").strip() or ""
@@ -9,8 +11,11 @@ def main():
             continue
         else:
             break
-
+    print("\nloading menu...")
+    time.sleep(1)
     while True:
+
+        print("_______________________________________")       
         print("\n1. All lowercase",
             "\n2. All uppercase", 
             "\n3. First letter capitalized",
@@ -23,14 +28,16 @@ def main():
         get_input = menu()
 
         if get_input == 6:
+            print("\nexiting...\n")
+            time.sleep(1)
             break
         else:
             stri = func(get_input, stri)
 
             print("_______________________________________\n")
 
-            print("\n",stri)
-            print("_______________________________________")           
+            # Print the output in cyan color for better visibility
+            print("\n\033[96m" + stri + "\033[0m")
             continue
     return
 
@@ -40,6 +47,8 @@ def menu():
     #Checking for valid integer
     while True:
         inp = input("Choose the function you want to apply to your input: ")
+        print("\nSelecting option from menu...")
+        time.sleep(1)
         try:
             inp = int(inp)
             if 1 <= inp <= 6:
