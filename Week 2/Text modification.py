@@ -11,8 +11,10 @@ def main():
             continue
         else:
             break
+
     print("\nloading menu...")
     time.sleep(1)
+    
     while True:
 
         print("_______________________________________")       
@@ -36,8 +38,7 @@ def main():
 
             print("_______________________________________\n")
 
-            # Print the output in cyan color for better visibility
-            print("\n\033[96m" + stri + "\033[0m")
+            print("\n",stri)           
             continue
     return
 
