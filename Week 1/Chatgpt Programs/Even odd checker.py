@@ -16,7 +16,7 @@ def is_valid_int():
         n = int(input("Enter a number: "))
         return n
     except ValueError:
-        print("Enter a valid integer bitch!")
+        print("Enter a valid integer")
         return "Nill"
 
 main()
