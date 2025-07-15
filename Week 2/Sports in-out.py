@@ -6,11 +6,12 @@ games = {
     "Basketball": "Outdoor",
     "Tug o War": "Outdoor",
     "Volley Ball": "Outdoor",
-    "Poker": "Indoor"
+    "Poker": "Indoor",
+    "Cricket": "Outdoor"
 }
 
 def main():
-    game = input("\nEnter a sports game: ").title()
+    game = input("\nEnter a game: ").title()
     if game in games:
         print(game_ground(game))
     else:
