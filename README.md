@@ -1,39 +1,37 @@
 # 🐍 Python-Newbie
 
-Welcome to my beginner Python repository!  
-I'm currently learning Python through the [CS50P course](https://cs50.harvard.edu/python/) and using this repo to track my progress, build small projects, and improve my coding skills.
+Welcome to my Python learning journey!  
+This repository contains beginner-friendly Python projects and practice exercises from Weeks 0–2 of the CS50P course, along with extra challenges I solved to improve my understanding.
 
-## 🚀 What's Inside
+## 📚 What's Included
 
-This repo contains small, beginner-friendly Python programs and practice exercises, such as:
+### ✅ CS50P Assignments (Week 0–2)
+- `vowel_counter.py` – Count total vowels in a string  
+- `vowel_breakdown.py` – Count each vowel individually (a, e, i, o, u)  
+- `unique_words.py` – Show unique words from input  
+- `atm_simulator.py` – Basic ATM simulator with PIN, deposit, withdraw, balance  
 
-- ✅ Even/Odd number checker  
-- ✅ Time-based greeter  
-- ✅ Unit converter (inches, cm, kg, etc.)  
-- ✅ Password strength checker  
-- ✅ Simple calculator  
-- ...and more coming soon!
+### 💻 Practice Challenges
+- `even_or_odd.py` – Check if a number is even or odd  
+- `greeting_by_hour.py` – Greet based on 24-hour time  
+- `string_formatter.py` – Clean and format user input  
+- `expression_calculator.py` – Evaluate simple math expressions  
+- `meal_time.py` – Tell if it’s breakfast/lunch/dinner time  
+- `unit_converter.py` – Convert between inches/cm or kg/pounds  
+- `plate_validator.py` – Validate vanity license plate rules  
+- `vowel_checker_sentence.py` – Detect vowels in a full sentence  
+- `pin_protected_atm.py` – ATM with PIN and balance tracking  
 
-Each program is written from scratch and includes input validation, basic logic, and helpful structure.
+## 🧠 Concepts Covered
+- ✅ Conditionals & loops  
+- ✅ Functions & arguments  
+- ✅ Strings, lists, and dictionaries  
+- ✅ Input validation  
+- ✅ Simulating state (e.g. balance in ATM)
 
-## 📚 Purpose
+## ▶️ How to Run
 
-- Practice Python fundamentals  
-- Build confidence with functions, input/output, and conditionals  
-- Keep track of my growth as I learn programming  
+Make sure you have **Python 3** installed. Then:
 
-## 🛠 Tools & Tech
-
-- Language: Python 3  
-- Editor: VS Code  
-- Platform: CS50P (CS50's Introduction to Programming with Python)
-
-## 🙌 Contributions
-
-This is a personal learning repo, but feel free to star, fork, or suggest improvements via issues!
-
----
-
-**Thanks for visiting!** 💻  
-Follow me on GitHub to stay updated.
-
+```bash
+python filename.py
