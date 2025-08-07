@@ -21,7 +21,7 @@ def get_weather():
         city = input("Enter city name: ").strip()
         try:
             response = requests.get(
-                f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid=d08a0aff72fd6395aeeec048fe3d9bae"
+                f"YOUR OPENWEATHER API"
             )
             data = response.json()
 
